@@ -3,7 +3,7 @@
     4/17/2025
 
     NAME: cli.py - command-line interface exercise
-    SYNOPSIS: python3 cli.py marksby athletename
+    SYNOPSIS: python3 cli.py athletename height
     DESCRIPTION: Counts number of polevault performances above given height by given athlete name, case-insensitively.
 '''
 
