@@ -18,7 +18,7 @@ def hello():
 
 @app.route('/help')
 def help():
-    return 'this should be some helpful text, that or prints a text doc, we shall see...'
+    return flask.render_template('help.html')
 
 @app.route('/<athletename>/<height>')
 def get_count(athletename, height):
